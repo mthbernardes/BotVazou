@@ -9,7 +9,7 @@ api = ''
 
 def handle_message(msg):
     user_id = msg['from']['id']
-    msg = msg['text']
+    msg = msg['text'].lower()
     if msg == '/start' or msg == '/help':
         bot.sendMessage(user_id,open('response/help.txt').read())
     else:
