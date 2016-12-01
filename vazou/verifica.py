@@ -14,4 +14,4 @@ class vazou():
             leaks.update(result_leakedsource)
         #print 'isleaked'
         #pprint(isleaked().check(email))
-        return leaks
+        return set(' '.join(leaks).replace('.com','').lower().split(' '))
