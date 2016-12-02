@@ -4,8 +4,6 @@ Telegram bot, created to verify if your e-mail leaked
 <pre>
 Chame o bot no Telegram
 @vazou_bot
-<<<<<<< Updated upstream
-=======
 
 Oi eu eu sou o bot Vazou, minha função é te informar se as credenciais do seu e-mail, foram expostas na internet.
 Mas antes veja algumas coisas que são legais você saber.
