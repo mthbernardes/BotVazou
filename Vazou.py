@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from bots.telegram import telegram
 from vazou.verifica import vazou
 

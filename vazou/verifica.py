@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from pprint import pprint
 from plugins.haveibeenpwned import haveibeenpwned
 from plugins.leakedsource import leakedsource
@@ -17,5 +19,5 @@ class vazou():
             leaks.update(result_leakedsource)
         if result_hackedemails:
             leaks.update(result_hackedemails)
-            
+
         return set('*'.join(leaks).replace('.com','').lower().split('*'))
