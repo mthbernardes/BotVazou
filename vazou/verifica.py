@@ -4,6 +4,7 @@ from plugins.leakedsource import leakedsource
 from plugins.isleaked import isleaked
 from plugins.hackedemails import hackedemails
 
+
 class vazou():
     def check(self,email):
         leaks = set()
@@ -16,6 +17,7 @@ class vazou():
             leaks.update(result_leakedsource)
         if result_hackedemails:
             leaks.update(result_hackedemails)
+
         #print 'isleaked'
         #pprint(isleaked().check(email))
         return set('*'.join(leaks).replace('.com','').lower().split('*'))
