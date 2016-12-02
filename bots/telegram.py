@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
+
 import re
 import time
 import telepot
-
 
 class telegram(object):
     def __init__(self,api,leak):

@@ -3,9 +3,9 @@
 from bots.telegram import telegram
 from vazou.verifica import vazou
 
-def telegram():
+def bot_telegram(api,leak):
     telegram(api,leak)
 
 leak = vazou()
 telegram_api = 'YOUR-TELEGRAM-API-HERE'
-telegram(telegram_api,leak)
+bot_telegram(telegram_api,leak)
