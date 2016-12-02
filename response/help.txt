@@ -10,5 +10,6 @@ https://github.com/mthbernardes/BotVazou
 3.Eu faço consulta do seu e-mail em serviços externos.
 https://www.leakedsource.com/
 https://haveibeenpwned.com/
+https://hacked-emails.com/
 
 4.Fui desenvolvido com o intuito de estudo, e para te notificar caso seu e-mail tenha sido vazado, não me responsabilizo por suas buscas.
