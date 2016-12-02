@@ -23,4 +23,3 @@ https://hacked-emails.com/
 
 4.Fui desenvolvido com o intuito de estudo, e para te notificar caso seu e-mail tenha sido vazado, não me responsabilizo por suas buscas.
 </pre>
->>>>>>> Stashed changes
