@@ -25,7 +25,7 @@ class telegram(object):
                 list_leaks = self.leak.check(msg)
                 leaks = '\n'.join(list_leaks)
                 if leaks:
-                    response = 'Foram encontrados {0} serviços onde suas credenciais possivelmente fora expostas\n{1}'.format(len(list_leaks),leaks)
+                    response = 'Foram encontrados {0} serviços onde suas credenciais possivelmente fora expostas\n{1}\n{2}'.format(len(list_leaks),'-'*35,leaks)
                     self.bot.sendMessage(user_id,response)
                 else:
                     self.bot.sendMessage(user_id,'Não foi encontrado nenhum vazamento, porém não utilize senhas compartilhadas, e troque suas senhas periodicamente!')
