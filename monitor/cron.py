@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import sys
-import logging
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 sys.path.append('../')
@@ -10,7 +9,6 @@ from vazou.verifica import vazou
 from bots.telegram import telegram
 
 sched = BlockingScheduler()
-logging.basicConfig()
 
 class cron():
     @sched.scheduled_job('interval', seconds=20)

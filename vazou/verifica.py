@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from pprint import pprint
 from plugins.haveibeenpwned import haveibeenpwned
 from plugins.leakedsource import leakedsource
 from plugins.isleaked import isleaked

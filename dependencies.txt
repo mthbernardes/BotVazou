@@ -1,0 +1,6 @@
+requests
+lxml
+pydal
+apscheduler
+hashids
+telepot

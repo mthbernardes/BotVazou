@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import requests
-from pprint import pprint
 
 class haveibeenpwned():
     def check(self,email):
