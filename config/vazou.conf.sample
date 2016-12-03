@@ -1,0 +1,13 @@
+[telegram]
+telegram_api = API TELEGRAM AQUI
+
+[email]
+conta = EMAIL
+senha = SENHA
+assunto_email = Codigo do Vazou!
+smtp = SERVIDOR SMTP
+smtp_port = PORTA SERVIDOR SMTP
+
+[token]
+hash = HASH PARA GERAR TOKENS AQUI
+tamanho_token = 4
