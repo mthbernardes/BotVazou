@@ -11,7 +11,7 @@ Após isso você ira receber um e-mail com um codigo de ativação.
 
 3.Como usar o codigo de ativação?
 É bem simples envie o seguinte comando para mim,
-/active codigo_recebido_por_email seuemail@email.com
+/active seuemail@email.com codigo_recebido_por_email
 
 4.Porque eu recebo esse codigo no meu e-mail?
 Para evitar que pessoas mal intencionadas façam o monitoramento do seu e-mail.
