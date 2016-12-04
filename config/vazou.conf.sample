@@ -11,3 +11,18 @@ smtp_port = PORTA SERVIDOR SMTP
 [token]
 hash = HASH PARA GERAR TOKENS AQUI
 tamanho_token = 4
+
+[textos_bot]
+aviso = AVISO!!\nUtilize esse serviço somente para buscar informações referentes ao seu e-mail.Caso seu e-mail tenha vazado em alguma vez, você recebera uma msg informando em quais serviçoes ocorreram o vazamento.
+leaks_encontrados = Foram encontrados {0} serviços onde suas credenciais possivelmente fora expostas\n{1}\n{2}
+zero_leaks_encontrados = Não foi encontrado nenhum vazamento, porém não utilize senhas compartilhadas, e troque suas senhas periodicamente!
+email_invalido = E-mail inválido!
+monitor_ativado_err = Falha ao ativar o Monitoramento
+monitor_ativado = Monitoramento Ativado com sucesso
+email_monitor_ativado = Foi enviado um e-mail para {0} com o codigo de ativação do Monitor!
+email_monitor_err = Não foi possivel enviar um codigo de ativação para o e-mail {0}.
+codigo_invalido = Codigo Invalido!
+email_ja_cadastrado = E-mail já cadastrado para o seu usuario.
+novo_leak = AVISO URGENTE!! Seu e-mail consta em um novo vazamento, o servico que sofreu o vazamento é o {0}, altere suas senhas com URGENCIA.
+delete_ok = Todos os seus registro foram excluidos do nosso banco de dados, e o monitoramento não ira mais funcionar.
+delete_err = Erro ao deletar informações

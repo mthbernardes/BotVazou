@@ -11,7 +11,7 @@ from bots.telegram import telegram
 sched = BlockingScheduler()
 
 class cron():
-    @sched.scheduled_job('interval', seconds=20)
+    @sched.scheduled_job('interval', hours=12)
     def monitor():
         db = banco()
         leaks = list()
