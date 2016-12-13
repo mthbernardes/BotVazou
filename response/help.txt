@@ -29,4 +29,5 @@ https://hacked-emails.com/
 TODOS OS COMANDOS
 /help - Envia essa mensagem.
 /monitor - Solicita monitoramento.
-/active - Habilita monitoramente perante envio do codigo de confirmação.
+/active - Habilita monitoramento perante envio do codigo de confirmação.
+/delete - remove o monitoramento do e-mail
