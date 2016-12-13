@@ -38,4 +38,6 @@ TODOS OS COMANDOS
 /monitor - Solicita monitoramento.
 /active - Habilita monitoramente perante envio do codigo de confirmação.
 
+Artigo sobre o BotVazou
+https://www.linkedin.com/pulse/eita-pega-meu-e-mail-vazou-o-matheus-bernardes
 </pre>
